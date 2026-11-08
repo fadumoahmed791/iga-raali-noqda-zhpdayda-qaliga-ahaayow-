@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Raalli-gelin Saaxiibtey ❤️</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1b1020, #4a1f35);
+    color: white;
+}
+
+.card {
+    width: 90%;
+    max-width: 440px;
+    padding: 35px 25px;
+    text-align: center;
+    border-radius: 28px;
+    background: rgba(255,255,255,0.10);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 15px 50px rgba(0,0,0,0.45);
+}
+
+.heart {
+    font-size: 45px;
+}
+
+h1 {
+    color: #ffb6c9;
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+p {
+    color: #f5f5f5;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 18px;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 30px;
+    background: #ff5c8a;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.96);
+}
+
+#message {
+    display: none;
+    margin-top: 25px;
+    color: #ffcfda;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="heart">🥺❤️</div>
+
+    <h1>Saaxiibtey, Iga Raalli Noqo</h1>
+
+    <p>
+        Saaxiib, maanta waxaan ogahay inaan
+        <strong>parankiga</strong> kugu sameeyay 😂😭
+    </p>
+
+    <p>
+        Waan kaftamay, laakiin haddii uu kaa xumaaday
+        ama aan dareenkaaga dhaawacay,
+        runtii <strong>waan ka xumahay.</strong> ❤️
+    </p>
+
+    <p>
+        Ma rabin inaan ku xanaajiyo ama ku xumeeyo.
+        Wax walba waxay ahaayeen kaftan,
+        laakiin saaxiibtinimadeenna ayaa iga muhiimsan. 🫶
+    </p>
+
+    <button onclick="forgiveMe()">
+        Iga Raalli Noqo? 🥺
+    </button>
+
+    <div id="message">
+        Mahadsanid saaxiibtey ❤️<br>
+        Mar dambe sidaas kuguma samayn doono... 
+        ama ugu yaraan waan isku dayayaa 😂😭
+    </div>
+
+</div>
+
+<script>
+function forgiveMe() {
+    document.getElementById("message").style.display = "block";
+}
+</script>
+
+</body>
+</html>
